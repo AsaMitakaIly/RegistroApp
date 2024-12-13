@@ -1,0 +1,44 @@
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; // Asegura que la imagen de fondo esté detrás del contenido
+  }
+  
+  
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; // Para centrar el contenido
+    color: white; // Cambia el color del texto según el fondo
+  }
+  
+  .error-image {
+    width: 80%; // Ajusta el tamaño de la imagen según necesites
+    max-width: 400px; // Máximo ancho que desees
+    height: auto; // Mantiene la proporción de la imagen
+    margin-bottom: 20px; // Espacio entre la imagen y el texto
+  }
+  
+  .error-message {
+    font-size: 24px; // Ajusta el tamaño de la fuente
+    text-align: center;
+    margin-bottom: 20px; // Espacio entre el mensaje y el botón
+  }
+  
+  .retry-button {
+    background-color: #3880ff; // Color del botón, puedes cambiarlo
+    color: white; // Color del texto del botón
+  }
+  
+  .logo {
+    width: 200px; /* Ajusta el tamaño del logo según necesites */
+    height: auto; /* Mantiene la proporción del logo */
+    margin-top: 10px; /* Espaciado superior para separar del borde */
+  }
+  

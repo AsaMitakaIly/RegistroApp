@@ -1,0 +1,35 @@
+<app-header-anon></app-header-anon>
+<ion-content [fullscreen]="true">
+  <div id="Fondo">
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div class="ion-padding">
+            <h1 class="Titulo">Sistema de Asistencia DUOC</h1>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <div class="content-container">
+        <!-- Imagen central -->
+        <img src="/assets/images/img_correcto.png" alt="Correcto" class="success-image">
+        <h1 class="success-message" style="text-align: center;">
+          Datos Correctos
+       
+        </h1>
+        <h1 class="success-message" style="text-align: center;">
+         
+        Tu contraseña es: 1234
+        </h1>
+      </div> <!-- Cerrar content-container aquí -->
+      
+      <!-- Botón de volver a inicio -->
+      <ion-row class="center ion-padding">
+        <button class="btn-v-inicio" (click)="inicio()">Volver a inicio</button>
+      </ion-row>
+
+    </ion-grid>
+  </div> <!-- Cerrar div Fondo aquí -->
+</ion-content>
+<app-footer></app-footer>
